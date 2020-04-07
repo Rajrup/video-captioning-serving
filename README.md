@@ -21,6 +21,7 @@ pip install -r requirements.txt
 - [Google Drive](https://drive.google.com/open?id=1KKGOtrcrrlmmg55J1GbdHJtpgtY5os1x)
 - All the checkpoints for tensorflow models files should be put into the "modules_video_cap/" folder.
   + VGG16: Path will look this - ```./modules_video_cap/vggnet/model/```
+  + AlexNet: Path will look this - ```./modules_video_cap/alexnet/model/```
   + S2VT:  Path will look this - ```./modules_video_cap/s2vt/model/```
 
 - Tensorflow serving models (```tf_servable/```) should be put into the current folder.
@@ -50,7 +51,5 @@ One module's output will go to the next one
 
 ## Performance
 - VGG16: *TODO*
+- AlexNet: *TODO*
 - S2VT: *TODO*
-
-
-**NOTE:** Alexnet will added soon as another chain.

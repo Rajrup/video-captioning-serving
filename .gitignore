@@ -134,6 +134,7 @@ modules_video_cap/s2vt/
 modules_video_cap/vggnet/
 
 # model files
+*.pb
 *.ckpt
 *.ckpt.*
 
