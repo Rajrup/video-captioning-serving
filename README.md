@@ -30,20 +30,28 @@ pip install -r requirements.txt
 
 ## Running
 - Tensorflow Pipeline:
+  + Run with VGG16 feature extractor
   ```
-  python pipeline.py original
-  ``` 
+  python pipeline.py original vgg16
+  ```
+  +  Run with Alexnet feature extractor
+  ```
+  python pipeline.py original alexnet
+  ```
 - Tensorflow Serving Pipeline:
   + Run serving in docker
     ```
     chmod +x run_tf_server.sh
     ./run_tf_server.sh
     ```
-  + Run client:
+  + Run client with VGG16:
     ```
-    python pipeline.py serving
+    python pipeline.py serving vgg16
     ``` 
-
+  + Run client with Alexnet:
+    ```
+    python pipeline.py serving alexnet
+    ``` 
 ## Components
 One module's output will go to the next one
 - Video Frame Embeddings - VGG16
