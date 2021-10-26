@@ -2,5 +2,5 @@ numpy
 opencv-python==4.2.0.32
 scikit-image
 tensorflow==1.13.1
-tensorflow-gpu==1.13.1
+tensorflow-gpu==2.4.0
 tensorflow-serving-api==1.13.1
